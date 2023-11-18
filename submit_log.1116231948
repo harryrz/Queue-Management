@@ -1,0 +1,48 @@
+Submitting assignment 4 from remote.ecf.utoronto.ca
+Checking for the expected files in the current directory
+main.cpp Customer.cpp Register.cpp QueueList.cpp RegisterList.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+g++ -std=c++11 -c -g Customer.cpp -o Customer.o
+g++ -std=c++11 -c -g QueueList.cpp -o QueueList.o
+g++ -std=c++11 -c -g Register.cpp -o Register.o
+g++ -std=c++11 -c -g RegisterList.cpp -o RegisterList.o
+g++ -std=c++11 -c -g main.cpp -o main.o
+g++ -std=c++11 Customer.o QueueList.o Register.o RegisterList.o main.o -o main
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'main'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 4 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 4
+total 36
+-rw-r----- 1 submit ece244gp  1068 Nov 16 23:19 Customer.cpp
+-rw-r----- 1 submit ece244gp 12672 Nov 16 23:19 main.cpp
+-rw-r----- 1 submit ece244gp  1794 Nov 16 23:19 QueueList.cpp
+-rw-r----- 1 submit ece244gp  2198 Nov 16 23:19 Register.cpp
+-rw-r----- 1 submit ece244gp  4705 Nov 16 23:19 RegisterList.cpp
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
